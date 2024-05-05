@@ -1,10 +1,10 @@
 import React from "react";
-
+import  Routes from "../src/routes"
 function App() {
 
   return (
     <div>
-      <h1>App.jsx</h1>
+     <Routes />
     </div>
   )
 }

@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Lexend';
+    src: url('https://fonts.googleapis.com/css2?family=Lexend:wght@200&display=swap" rel="stylesheet');
+}
+
+* { 
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 200;
+}
+
+.menu-content{
+    background-color: #379E53;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.menu #logo{
+    font-size: xx-large;
+    font-weight: bold;
+margin-left: 5rem;
+}
+
+.menu #cadastre{
+    padding: 4px 4px;
+    text-align: center;
+    background-color: white;
+    color: #379E53;
+    font-weight: bold;
+    border: 1px white solid; 
+    border-radius: 15px;  
+}
+
+.menu .textos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.menu h3:hover{  
+    color: rgb(192, 192, 192);
+}
+.menu h3{
+    margin-right: 1rem;
+}
+@media (max-width: 768px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu #logo{
+        margin-bottom: 1rem;
+    }
+
+    .menu #cadastre{
+        width: 100%;
+        font-size: small;
+    }
+}
