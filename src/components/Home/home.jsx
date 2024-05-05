@@ -2,7 +2,7 @@ import React from "react";
 import "../Home/home.css"
 
 const Home = () =>{ return (
-    <section>
+    <div>
        
           <nav className={"menu-content"}> 
              <div className={"menu"}>
@@ -19,7 +19,17 @@ const Home = () =>{ return (
              </div>
           </nav>
        
-    </section>
+       <section className={"pc-content"}>
+
+         <div className={"imgPc"}>
+         </div>
+         <div className={"frases"}>
+            <h1>WayClient <p>- espera e + vendas, totalmente automático.</p></h1>
+         </div>
+              
+       </section>
+       
+    </div>
 )}
 
 export default Home

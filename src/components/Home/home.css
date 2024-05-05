@@ -53,6 +53,34 @@ margin-left: 5rem;
 .menu h3{
     margin-right: 1rem;
 }
+
+.imgPc{
+    background-image: url('../src/assets/Home/pchome.png' );
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 10rem;
+}
+.frases{
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
+}
+.frases h1{
+    font-weight: bold;
+}
+.frases p{
+    font-size: large;
+    font-weight: bold;
+}
+.pc-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+text-align: center;
+margin-top: 5rem;
+}
+
 @media (max-width: 768px) {
     .menu {
         display: flex;
