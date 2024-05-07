@@ -2,7 +2,7 @@
     font-family: 'Lexend';
     src: url('https://fonts.googleapis.com/css2?family=Lexend:wght@200&display=swap" rel="stylesheet');
 }
-
+/*Barra de navegação */
 * { 
     width: 100%;
     box-sizing: border-box;
@@ -53,25 +53,31 @@ margin-left: 5rem;
 .menu h3{
     margin-right: 1rem;
 }
-
+/*---------*/
 .imgPc{
     background-image: url('../src/assets/Home/pchome.png' );
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 10rem 10rem;
+    padding: 15rem ;
+margin-bottom: 4%;
 }
 .frases{
     display: flex;
     align-items: center;
     text-align: center;
+    align-content: center;
+    margin-bottom: 15rem;
    
 }
 .frases h1{
     font-weight: bold;
+    font-size: 500%;
 }
 .frases p{
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
+    color: #5B5B5B;
+    margin-top: 0.50rem;
 }
 .pc-content{
     display: flex;
@@ -79,6 +85,67 @@ margin-left: 5rem;
     align-items: center;
 text-align: center;
 margin-top: 5rem;
+}
+.frases h1, span{
+    color: #379E53;
+}
+.frases span{
+    font-weight: bolder;
+}
+/*---------*/
+.dicas-content{
+    background-color: #83B791;
+   
+}
+
+.dicas h2{
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#caixas h4{
+    text-align: center;
+   color: #379E53;
+   font-weight:800;
+
+}
+#caixas{
+    color: #5B5B5B;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 4px 4px 2px 4px;
+    box-shadow: 1px 1px 1px 1px #5B5B5B;
+}
+#caixas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#caixas p{
+    font-size: small;
+    font-weight: bold;
+}
+.caixas-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#caixas #icon-1, #icon-2, #icon-3{
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 1.50rem 1.50rem;
+        
+}
+
+#caixas #icon-1{
+    background-image: url('../src/assets/Home/coment.png' );
+}
+#caixas #icon-2{
+    background-image: url('../src/assets/Home/pen.png' );
+}
+#caixas #icon-3{
+    background-image: url('../src/assets/Home/light.png' );
 }
 
 @media (max-width: 768px) {
