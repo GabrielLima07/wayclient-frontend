@@ -32,10 +32,11 @@ const Home = () =>{ return (
 
       <section className={"dicas-content"}>
          <div className={"dicas"}>
-         <h2>Por que o WayClient?</h2>
+       
 
 
         <div className={"caixas-content"}>
+           <h1>Por que o WayClient?</h1>
          <div id="caixas">
             <div id={"icon-1"}></div>
             
@@ -60,7 +61,76 @@ const Home = () =>{ return (
 
          </div>
           
-         </section>       
+         </section>    
+
+
+         <section className="gestao-content">
+             
+
+       <div className="gestao">
+         
+           <h1><span>Otimize</span> a gestão <br /> da sua equipe</h1>
+           <br />
+           <p>Aumente a produtividade da sua equipe <br /> de suporte centralizando os registros 
+            de solicitações <br /> com seu cliente em um só lugar.</p>
+
+            </div> 
+            <div id="img-1"></div>
+            </section> 
+            
+             <section className={"satisfacao-content"}>
+
+             <div id={"img-2"}></div>
+                <div className={"satisfacao"}>
+                  <h1>Aumente o nível <br />de satisfação de <br />seus clientes</h1>
+                  <p id={"p2"}>Ofereça uma experiência personalizada,<br /> distribuindo cada chamado para seu setor específico.</p>
+
+                </div>
+
+               </section> 
+
+               <section className={"otimize-content"}>
+               <div id={"img-3"}></div>
+                  <div className={"otimize"}>
+                     
+                     <h2>Otimize seu fluxo de atendimento! </h2>
+                  
+                     <p id={"p3"}>Experimente nosso sistema de gestão  de atendimentos e eleve a <br /> eficiência da sua equipe. <br />
+                     Aumente a satisfação do seu cliente <br /> e impulsione o  <br />crescimento do seu negócio com <br /> nossa plataforma.</p>
+
+                     <button id={"bt"}>Comece Agora!</button>
+                   
+                  </div>
+
+        
+               </section>
+
+               <footer className={"rodape-home"}>
+              <div className={"rodape"}>
+
+               <div id={"col1"}>
+              <li>Institucional</li>
+              <ul>Sobre</ul>
+              <ul>Contato</ul>
+              <ul>Política de Privacidade</ul>
+              <ul>Termos de Uso</ul>
+
+               </div>
+               <div id={"col2"}>
+                  <li>Atendimento</li>
+                   <ul>Segunda à Sexta das 8 às 18h</ul>
+                   <ul>(81) 99999-9999</ul>
+               </div>
+               <div id={"col3"}>
+                  <li>Nossas Redes</li>
+              
+                   <ul id={"icon-4"}></ul>
+                   <ul id={"icon-5"}></ul>
+                   <ul id={"icon-6"}></ul>
+               </div>
+               
+              </div>
+               </footer>
     </div>
 )}
 
