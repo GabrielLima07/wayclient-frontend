@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Lexend';
+    src: url('https://fonts.googleapis.com/css2?family=Lexend:wght@200&display=swap" rel="stylesheet');
+}
+
+* {
+    font-family: 'Lexend', sans-serif;
+}
+
+.caixaCadastro {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 3rem;
+    width: 80%;
+    height: 30rem;
+    border: 1px solid rgb(91, 91, 91);
+    border-radius: 1rem;
+}
+
+.tituloCadastro {
+    font-size: 2.3rem;
+    align-items: center;
+    margin: 1rem 0rem 1rem 2rem;
+}
+
+.form {
+    display: flex;
+}
+
+.formCadastro h3{
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+}
+
+.formCadastro #inputNome,
+#inputEmail, #inputSenha {
+    width: 20rem;
+    margin-left: 4rem;
+    padding: 0.7rem 0.7rem;
+    border: 1px solid rgb(91, 91, 91);
+    background-color: #f4f4f4;
+    border-radius: 2rem;
+}
+
+.formCadastro2 h3{
+    margin: 1.5rem 0rem 0rem 2rem;
+}
+
+.formCadastro2 #inputAcesso, 
+#inputDepartamento {
+    width: 20rem;
+    margin-left: 2rem;
+    padding: 0.7rem 0.7rem;
+    border: 1px solid rgb(91, 91, 91);
+    background-color: #f4f4f4;
+    border-radius: 2rem;
+}
