@@ -1,0 +1,87 @@
+#ls-main-section {
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px  #5B5B5B;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 8%;
+  padding: 4%;
+}
+
+#ls-profile-pic {
+  display: flex;
+  justify-content: center;
+  width: 45%;
+}
+
+#ls-profile-pic img {
+  width: 35%;
+  border: 1px #379E53 solid;
+  border-radius: 50%;
+  margin-top: 6%;
+  margin-bottom: 4%;
+}
+
+.ls-text {
+  color: #5B5B5B;
+}
+
+.ls-input {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  margin-bottom: 2%;
+}
+
+.ls-input label {
+  font-size: 1.25rem;
+}
+
+.ls-input input {
+  padding-left: 4px;
+  color: #5B5B5B;
+  height: 6vh;
+  font-size: 1.25rem;
+  border-radius: 12px;
+  border: 1px #379E53 solid;
+}
+
+.ls-input-checkbox {
+  display: flex;
+  width: 45%;
+}
+
+.ls-input-checkbox p{
+  padding-left: 2%;
+}
+
+#ls-keep-conected {
+  cursor: pointer;
+}
+
+#ls-access-btn {
+  margin-top: 4%;
+  margin-bottom: 2%;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+}
+
+#ls-access-btn button{
+  border-radius: 50px;
+  width: 80%;
+  background-color: #379E53;
+  font-size: 1.15rem;
+}
+
+#ls-signup-p {
+  margin-bottom: 6%;
+}
+
+#ls-signup-p a {
+  color: #379E53;
+  cursor: pointer;
+}
