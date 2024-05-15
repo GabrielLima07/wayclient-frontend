@@ -4,6 +4,7 @@ import Home from './components/Home/home'
 import CadastroColaborador from './components/CadastroColaborador/cadastroColaborador'
 import App from './App'
 import LoginPage from './pages/LoginPage'
+import SignUpPage from './pages/SignUpPage'
 
 function Main() {
   return (
@@ -13,6 +14,7 @@ function Main() {
         <Route path="/cadastroColaborador" element={<CadastroColaborador />} />
         <Route path="/app" element={<App />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/signup" element={<SignUpPage />} />
       </Routes>
     </Router>
   )
