@@ -4,8 +4,8 @@ import "../NavbarAdm/navbarAdm.css"
 const navbarAdm = () => {
     return (
         <div>
-            <nav className={"menu-content"}>
-                <div className={"menu"}>
+            <nav className={"menuAdm-content"}>
+                <div className={"menuAdm"}>
                     <h2 id={"logo"}>WayClient</h2>
 
                     <div className={"textosAdm"}>
@@ -23,7 +23,7 @@ const navbarAdm = () => {
                 </div>
 
             </nav>
-            <div className={"menuAdm"}>
+            <div className={"menuAdm2"}>
                 <h4>Monitoramento</h4>
                 <h4>Horário de Atendimento</h4>
                 <h4>Central de Ajuda</h4>

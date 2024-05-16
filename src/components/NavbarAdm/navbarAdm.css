@@ -3,47 +3,40 @@
     src: url('https://fonts.googleapis.com/css2?family=Lexend:wght@200&display=swap" rel="stylesheet');
 }
 
-/*Barra de navegação */
-* {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Lexend', sans-serif;
-    font-weight: 200;
-}
-
-.menu-content {
+.menuAdm-content {
     background-color: #379E53;
     color: white;
     display: flex;
+    justify-content: space-between;
 }
 
-.menu {
+.menuAdm {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 1rem;
 }
 
-.menu #logo {
+.menuAdm #logo {
     font-size: xx-large;
     font-weight: bold;
     margin-left: 5rem;
 }
 
-.menu .textosAdm {
+.menuAdm .textosAdm {
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    margin-left: 15rem;
     font-size: 0.8rem;
 }
 
-.menu #busca {
+.menuAdm #busca {
     align-items: center;
     padding: 0.7rem 0.7rem;
-    width: 10rem;
+    width: 16rem;
+    margin-left: 10rem;
     border: none;
     border-radius: 1.5rem;
 }
@@ -51,7 +44,7 @@
 .perfil {
     background-color: #245631;
     text-align: center;
-    width: 28%;
+    width: 15%;
     padding: 0.7rem 1rem; /* Adiciona preenchimento interno */
 }
 
@@ -59,7 +52,7 @@
     margin: 1rem 1rem;
 }
 
-.menuAdm {
+.menuAdm2 {
     background-color: #FFFFFF;
     color: #379E53;
     display: flex;
@@ -68,17 +61,23 @@
     padding: 0.2rem;
 }
 
-.menuAdm h4:hover {
+.menuAdm2 h4{
+    justify-content: space-between;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.menuAdm2 h4:hover {
     color: #3CE66A;
     cursor: pointer;
 }
 
-.menu h3:hover {
+.menuAdm h3:hover {
     color: rgb(91, 91, 91);
     cursor: pointer;
     font-weight: 600;
 }
 
-.menu h3 {
-    margin-right: 1rem;
+.menuAdm h3 {
+    margin-right: 4rem;
 }
