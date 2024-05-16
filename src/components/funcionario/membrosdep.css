@@ -1,0 +1,19 @@
+.fun-departamento{
+    display: flex;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.departamento-fun{
+    background-image: url("../../assets/funcionario/perfil.png");
+    height: 40px;
+    width: 40px;
+    
+}
+.fun-departamento p{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+.nome-fun{
+    font-weight:600;
+}

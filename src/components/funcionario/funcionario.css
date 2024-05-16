@@ -1,0 +1,20 @@
+.funcionario-menu{
+    display: flex;
+    align-items: center;
+    background-color: #245631;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin: 0;
+}
+
+.imgPerfil{
+    background-image: url("../../assets/funcionario/perfil.png");
+    height: 100px;
+    width: 100px;
+  
+}
+.funcionario-menu p{
+    font-size: 20px;
+    margin: 5px;
+    color: white;
+}
