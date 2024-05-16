@@ -1,10 +1,10 @@
+*{box-sizing: border-box;}
 .menu-funcionario .textos {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
   font-size: 1rem;
-  
   gap: 2rem;
 }
 
@@ -16,7 +16,7 @@
 
 .menu-funcionario {
   display: flex;
-  width: 100vw;
+  
   justify-content: space-between;
   align-items: center;
   
@@ -59,4 +59,23 @@
   box-shadow: 0 0 5px 2px #245631;
   border: 2px;
   outline: 0; /* Opcional: Adicione um efeito de sombra */
+}
+.imgPerfil{
+  background-image: url("../../assets/funcionario/perfil.png");
+  height: 100px;
+  width: 100px;
+
+}
+.nameFun{
+    font-size: 20px;
+    margin: 5px;
+    color: white;
+}
+.funcio{
+  display: flex;
+  align-items: center;
+  background-color: #245631;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  
 }

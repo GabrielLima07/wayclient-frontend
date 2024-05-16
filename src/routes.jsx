@@ -11,7 +11,6 @@ function Main() {
         <Route path="/" element={<Home />} />
         <Route path="/app" element={<App />} />
         <Route path="/funcionario" element={<FuncionarioHomePage/>}/>
-       
       </Routes>
     </Router>
   )

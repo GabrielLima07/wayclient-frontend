@@ -1,7 +1,11 @@
-import Funcionario from "./funcionario";
+
 import './menufuncionario.css'
 
 const Menufuncionario = ()=>{
+      const userData = {
+        name:"Filipe Granja",
+        imagem:"../../assets/funcionario/perfil.png" ,
+    }
     return(
         <div>
             <nav className={"menu-content-funcionario"}> 
@@ -13,11 +17,12 @@ const Menufuncionario = ()=>{
                 <h3 >Mensagens</h3>
                 <h3>Histórico</h3>
                 <input type="text" placeholder="pesquisar"></input>
-                   
                 </div>
-                <div className="funcionario">
-                        <Funcionario/>
-                    </div>
+                <div className='funcio'>
+                    <div className="imgPerfil"></div>
+                    <p className='nameFun'>{userData.name}</p>
+                </div>
+                    
              </div>
           </nav>
         </div>
