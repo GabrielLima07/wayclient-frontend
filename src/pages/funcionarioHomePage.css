@@ -1,0 +1,13 @@
+.ajustes{
+    display: flex;
+}
+.mainfuncionario{
+    margin: 100px;
+    margin-left: 250px;
+}
+.footerfuncionario{
+    display: flex;
+    align-items: flex-end;
+    margin-left: -1086px;
+    
+}
