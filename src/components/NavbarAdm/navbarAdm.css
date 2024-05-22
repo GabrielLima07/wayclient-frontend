@@ -14,7 +14,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem;
 }
 
 .menuAdm #logo {
@@ -28,7 +27,7 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    margin-left: 15rem;
+    margin-left: 10rem;
     font-size: 0.8rem;
 }
 
@@ -36,20 +35,26 @@
     align-items: center;
     padding: 0.7rem 0.7rem;
     width: 16rem;
-    margin-left: 10rem;
     border: none;
     border-radius: 1.5rem;
 }
 
 .perfil {
     background-color: #245631;
-    text-align: center;
-    width: 15%;
-    padding: 0.7rem 1rem; /* Adiciona preenchimento interno */
+    display: flex;
+    width: 20%;
+    padding: 0.7rem 1rem;
 }
 
 .perfil h3{
     margin: 1rem 1rem;
+}
+
+.foto-perfil{
+    background-image: url("../../assets/Login/perfil.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 2rem;
 }
 
 .menuAdm2 {

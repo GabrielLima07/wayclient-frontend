@@ -1,5 +1,6 @@
 import React from "react";
 import "../NavbarAdm/navbarAdm.css"
+import fotoPerfil from "../../assets/Login/perfil.png"
 
 const navbarAdm = () => {
     return (
@@ -19,6 +20,7 @@ const navbarAdm = () => {
 
                 </div>
                 <div className={"perfil"}>
+                    <img className="foto-perfil" />
                     <h3>Alice Castro</h3>
                 </div>
 
