@@ -1,42 +1,70 @@
-import React from "react";
+import React, { useState } from "react";
 import "../CadastroColaborador/cadastroColaborador.css"
 import NavbarAdm from "../NavbarAdm/navbarAdm";
 
 const cadastroColaborador = () => {
+
+    const [nome, setNome] = useState('');
+    const [email, setEmail] = useState('');
+    const [senha, setSenha] = useState('');
+    const [departamento, setDepartament] = useState('');
+
+    const handleNomeChange = (event) => {
+        setNome(event.target.value);
+      };
+    
+    const handleEmailChange = (event) => {
+        setEmail(event.target.value);
+      };
+    
+      const handleSenhaChange = (event) => {
+        setSenha(event.target.value);
+      };
+
+      const handleDepartamentoChange = (event) => {
+        setDepartament(event.target.value);
+      }
+
+      const handleCadastroColaboradorClick = () => {
+        
+      }
+
     return (
         <div>
             <NavbarAdm />
 
-            <div className={"caixaCadastro"}>
-                <h1 className={"tituloCadastro"}>Cadastro de colaborador</h1>
-                <hr />
-                <div className={"form"}>
-                    <div className={"formCadastro"}>
-                        <h3>Nome Completo</h3>
-                        <input type="text" id={"inputNome"} />
-                        <h3>E-mail</h3>
-                        <input type="text" id={"inputEmail"} />
-                        <h3>Senha de acesso</h3>
-                        <input type="password" id={"inputSenha"} />
-                        <h3>Repita a senha</h3>
-                        <input type="password" id={"inputSenha"} />
+            <section className="section-cadastro">
+                <h1 className="text">Cadastro de Colaborador</h1>
+
+                <div className="form-cadastro">
+                    <div className="form">
+                        <label className="text">Nome Completo</label>
+                        <input type="text" id="input-nome" value={nome} onChange={handleNomeChange}/>
+                        <label className="text">E-mail</label>
+                        <input type="text" id="input-email" value={email} onChange={handleEmailChange} />
+                        <label className="text">Senha de Acesso</label>
+                        <input type="password" id="input-senha" value={senha} onChange={handleSenhaChange} />
+                        <label className="text">Repita a senha</label>
+                        <input type="password" id="input-senha" />
                     </div>
-                    <div className={"formCadastro2"}>
-                        <h3>Perfil de Acesso</h3>
-                        <input type="text" id={"inputAcesso"} list="acesso" />
-                        <datalist id="acesso">
-                            <option value="Profissional"></option>
-                            <option value="Profissional"></option>
-                        </datalist>
-                        <h3>Departamento</h3>
-                        <input type="text" id={"inputDepartamento"} list="departamento" />
+
+                    <div className="form2">
+                        <label className="text">Departamento</label>
+                        <input type="text" id={"input-departamento"} list="departamento" value={departamento} onChange={handleDepartamentoChange} />
                         <datalist id="departamento">
                             <option value="Financeiro"></option>
                             <option value="Design"></option>
                         </datalist>
                     </div>
                 </div>
-            </div>
+                
+            </section>
+            <button className="btn-cadastro-colaborador" 
+            onClick={handleCadastroColaboradorClick}>Cadastrar colaborador</button>
+
+            <footer className="footerAdm">
+                <div className="text-footer"><h3>@WayClient2024</h3></div>
+            </footer>
         </div>
     )
 }
