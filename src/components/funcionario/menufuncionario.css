@@ -1,29 +1,20 @@
-*{box-sizing: border-box;}
-.menu-funcionario .textos {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  font-size: 1rem;
-  gap: 2rem;
+* {
+  box-sizing: border-box;
 }
 
 .menu-content-funcionario {
   background-color: #379E53;
   color: white;
-  
 }
 
 .menu-funcionario {
   display: flex;
-  
   justify-content: space-between;
   align-items: center;
-  
 }
 
-.menu-funcionario h3 { 
-  margin: 2rem; 
+.menu-funcionario h3 {
+  margin: 2rem;
 }
 
 .menu-funcionario h3:hover {
@@ -46,36 +37,76 @@
 }
 
 .menu-funcionario input[type="text"] {
-  border-radius: 15px; 
-  padding: 0.5rem; 
+  border-radius: 15px;
+  padding: 0.5rem;
   border: 1px solid #379E53;
   width: 500px;
-  margin-right: 5px;
-  margin-right: 1rem; 
+  margin-right: 1rem;
 }
+
 .menu-funcionario input[type="text"]:focus {
- 
   border-color: #245631;
   box-shadow: 0 0 5px 2px #245631;
-  border: 2px;
-  outline: 0; 
+  outline: 0;
 }
-.imgPerfil{
+
+.imgPerfil {
   background-image: url("../../assets/funcionario/perfil.png");
   height: 100px;
   width: 100px;
+  background-size: cover;
+  border-radius: 50%;
+}
 
+.nameFun {
+  font-size: 20px;
+  margin: 5px;
+  color: white;
 }
-.nameFun{
-    font-size: 20px;
-    margin: 5px;
-    color: white;
-}
-.funcio{
+
+.funcio {
   display: flex;
   align-items: center;
   background-color: #245631;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
-  
+  position: relative;
+  padding: 0 10px;
+}
+
+.dropdown-toggle {
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  margin-left: 10px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100px; /* ajustado para a posição correta */
+  right: 0;
+  background-color: #245631; /* cor verde */
+  border: 1px solid #ccc;
+  border-left: 20px solid #245631; /* borda à esquerda */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  z-index: 1000;
+  color: white;
+}
+
+.dropdown-menu .dropdown-item {
+  margin: 0;
+  padding: 15px 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #245631; /* cor verde escura para hover */
+}
+
+.dropdown-menu hr {
+  margin: 0;
+  border-left: 200px solid transparent; /* Adiciona uma borda transparente à esquerda */
+  border-top: 1px solid white; /* Barra de separação branca */
 }
