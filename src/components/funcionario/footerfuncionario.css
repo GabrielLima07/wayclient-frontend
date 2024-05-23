@@ -1,8 +1,9 @@
 .dicas-content-funcionario {
     background-color: #83B791;
-    height: 50vh;
-    max-height: 50vh;
+    height: 40vh;
+    max-height: 40vh;
     overflow: hidden;
+
   }
   
   .caixas-content-funcionario h1 {
