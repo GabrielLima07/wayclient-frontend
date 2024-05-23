@@ -1,0 +1,16 @@
+.ajustes{
+    display: flex;
+
+}
+.mainfuncionario{
+    margin: 100px;
+    margin-left: 250px;
+}
+.footerfuncionario{
+    margin-top: 35rem;
+    
+    margin-left: -70.35rem;
+    height: -10%;
+    box-sizing: border-box;
+    height: 200px;
+}

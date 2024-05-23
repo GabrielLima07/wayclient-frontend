@@ -1,0 +1,98 @@
+.botoes-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espaço entre as colunas de botões */
+  margin-left: 50px;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Espaço entre os botões dentro de uma coluna */
+}
+
+.titulo {
+  display: flex;
+  margin-left: 150px;
+  margin-bottom: 1rem;
+}
+
+.titulo p {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.titulo h1 {
+  color: #379e53;
+  margin-left: 5px;
+}
+
+.btn {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.336);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.452);
+  color: #379e53;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  width: 20rem; 
+  margin: 1rem;
+}
+.btn:hover {
+  border-color: #379e53;
+}
+.btn:focus{
+  border-color: #379e53;
+  box-shadow: 0 0 5px 2px #379e53;
+  border: 2px;
+  outline: 0; 
+}
+.fa-cadastrar {
+  background-image: url("../../assets/funcionario/+.png");
+  width: 16px;
+  height: 15px;
+  margin-right: 5px;
+  margin-top: 0.8rem;
+}
+
+.fa-ticket {
+  background-image: url("../../assets/funcionario/TrainTicket.png");
+  width: 25px;
+  height: 25px;
+  margin-top: 7.3px;
+  margin-right: 3rem;
+}
+
+.fa-atualizar {
+  background-image: url("../../assets/funcionario/AvailableUpdates.png");
+  width: 29px;
+  height: 25px;
+  margin-top: 7px;
+  padding-bottom: 5px;
+}
+
+.fa-historico {
+  background-image: url("../../assets/funcionario/Group.png");
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+  margin-top: 6.7px;
+}
+
+.btn p {
+  font-size: 30px;
+  color: #379e53;
+  font-weight:bolder;
+  text-align: center;
+}
+.btn-h{
+  padding-left: 5.8rem;
+}
+.btn-a{
+  padding-left: 1.5rem;
+}
+.btn-t{
+  padding-left: 6.5rem;
+}

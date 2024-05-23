@@ -1,0 +1,81 @@
+*{box-sizing: border-box;}
+.menu-funcionario .textos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  gap: 2rem;
+}
+
+.menu-content-funcionario {
+  background-color: #379E53;
+  color: white;
+  
+}
+
+.menu-funcionario {
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.menu-funcionario h3 { 
+  margin: 2rem; 
+}
+
+.menu-funcionario h3:hover {
+  color: rgb(192, 192, 192);
+}
+
+.menu-funcionario .textos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  gap: 2rem;
+}
+
+.menu-funcionario #logo {
+  font-size: 250%;
+  font-weight: 600;
+  margin-left: 4rem;
+}
+
+.menu-funcionario input[type="text"] {
+  border-radius: 15px; 
+  padding: 0.5rem; 
+  border: 1px solid #379E53;
+  width: 500px;
+  margin-right: 5px;
+  margin-right: 1rem; 
+}
+.menu-funcionario input[type="text"]:focus {
+ 
+  border-color: #245631;
+  box-shadow: 0 0 5px 2px #245631;
+  border: 2px;
+  outline: 0; 
+}
+.imgPerfil{
+  background-image: url("../../assets/funcionario/perfil.png");
+  height: 100px;
+  width: 100px;
+
+}
+.nameFun{
+    font-size: 20px;
+    margin: 5px;
+    color: white;
+}
+.funcio{
+  display: flex;
+  align-items: center;
+  background-color: #245631;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  
+}

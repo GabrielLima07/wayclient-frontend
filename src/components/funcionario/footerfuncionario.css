@@ -1,0 +1,70 @@
+.dicas-content-funcionario {
+    background-color: #83B791;
+    height: 40vh;
+    max-height: 40vh;
+    overflow: hidden;
+
+  }
+  
+  .caixas-content-funcionario h1 {
+    text-align: left;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  #caixas-funcionario h4 {
+    text-align: center;
+    color: #379E53;
+    font-weight: 800;
+  }
+  
+  #caixas-funcionario {
+    box-sizing: border-box;
+    width: 90%; 
+    max-width: 324px; 
+    height: auto; 
+    margin: 0 auto; /* Centralize horizontalmente */
+    margin-top: 2rem; 
+    margin-bottom: 2rem; 
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+  }
+  
+  
+  #caixas-funcionario p {
+    font-size: medium;
+    font-weight: bold;
+  }
+  
+  .caixas-content-funcionario {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 30px auto; /* Centraliza a caixa no meio */
+    gap: 60px;
+  }
+  .caixas-content-funcionario h1{
+    text-align: center;
+  }
+  #caixas-funcionario #icon-1,#icon-3,#icon-2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 5vh;
+    background-position: center;
+    margin-bottom: 1rem;
+ 
+  }
+  
+  #caixas-funcionario #icon-1 {
+    background-image: url('../src/assets/Home/coment.png');
+  }
+  
+  #caixas-funcionario #icon-2 {
+    background-image: url("../src/assets/Home/pen.png");
+  }
+  
+  #caixas-funcionario #icon-3 {
+    background-image: url("../src/assets/Home/light.png");
+  }
