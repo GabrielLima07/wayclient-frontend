@@ -46,19 +46,19 @@
 }
 
 .menu-funcionario input[type="text"] {
-  border-radius: 15px; /* Ajuste o valor para aumentar ou diminuir o arredondamento */
+  border-radius: 15px; 
   padding: 0.5rem; 
   border: 1px solid #379E53;
   width: 500px;
   margin-right: 5px;
-  margin-right: 1rem; /* Opcional: Adicione uma borda para um melhor contraste */
+  margin-right: 1rem; 
 }
 .menu-funcionario input[type="text"]:focus {
  
   border-color: #245631;
   box-shadow: 0 0 5px 2px #245631;
   border: 2px;
-  outline: 0; /* Opcional: Adicione um efeito de sombra */
+  outline: 0; 
 }
 .imgPerfil{
   background-image: url("../../assets/funcionario/perfil.png");

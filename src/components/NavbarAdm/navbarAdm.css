@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Lexend';
+    src: url('https://fonts.googleapis.com/css2?family=Lexend:wght@200&display=swap" rel="stylesheet');
+}
+
+.menuAdm-content {
+    background-color: #379E53;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuAdm {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menuAdm #logo {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-left: 5rem;
+}
+
+.menuAdm .textosAdm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 10rem;
+    font-size: 0.8rem;
+}
+
+.menuAdm #busca {
+    align-items: center;
+    padding: 0.7rem 0.7rem;
+    width: 16rem;
+    border: none;
+    border-radius: 1.5rem;
+}
+
+.perfil {
+    background-color: #245631;
+    display: flex;
+    width: 20%;
+    padding: 0.7rem 1rem;
+}
+
+.perfil h3{
+    margin: 1rem 1rem;
+}
+
+.foto-perfil{
+    background-image: url("../../assets/Login/perfil.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 2rem;
+}
+
+.menuAdm2 {
+    background-color: #FFFFFF;
+    color: #379E53;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0.2rem;
+}
+
+.menuAdm2 h4{
+    justify-content: space-between;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.menuAdm2 h4:hover {
+    color: #3CE66A;
+    cursor: pointer;
+}
+
+.menuAdm h3:hover {
+    color: rgb(91, 91, 91);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.menuAdm h3 {
+    margin-right: 4rem;
+}

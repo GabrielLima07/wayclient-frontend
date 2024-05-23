@@ -1,0 +1,86 @@
+.rodape-login {
+  background-color: #379E53;
+  margin-top: 10rem;
+  color: #ffffff;
+}
+
+.rodape-login-div {
+display: flex;
+justify-content: space-around;
+text-align: start;
+min-height: 40vh;
+font-size: large;
+margin-left: 48px;
+}
+
+#col1-login,
+#col2-login,
+#col3-login {
+  flex: 1; 
+  list-style-type: none; 
+  padding: 0;
+  margin-top: 3rem; 
+  margin-bottom: 4rem;
+}
+
+#icon-1-login{
+  margin-left: 4px;
+}
+
+#col3-login div {
+  display: flex;
+}
+
+#col3-login img {
+  display: flex;
+  margin-right: 32px;
+}
+
+.rodape-login-div ul {
+  margin: 0;
+}
+
+.rodape-login-div li{
+   font-size: large;
+   font-weight: 700;
+}
+
+li h2 {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu #logo {
+    margin-bottom: 1rem;
+  }
+
+  .menu #cadastre {
+    width: 100%;
+    font-size: small;
+  }
+
+  .pc-content {
+    flex-direction: column-reverse;
+  }
+
+  .frases {
+    margin-bottom: 0;
+  }
+
+  .frases h1 {
+    font-size: 300%;
+  }
+
+  .frases p {
+    font-size: large;
+  }
+
+  #img-1 {
+    margin-right: 0;
+  }
+}
