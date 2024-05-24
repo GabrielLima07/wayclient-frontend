@@ -6,7 +6,16 @@
     font-family: "Lexend", sans-serif;
     font-weight: 200;
   }
-  
+  .link{
+    text-decoration: none;
+    color: inherit;
+  }
+  .link:hover{
+    color: rgb(192, 192, 192);
+  }
+  #cadastre .link:hover{
+    color: white;
+  }
   body {
     background-color: #f4f4f4;
   }
@@ -64,7 +73,7 @@
   
   /*--------------------------------------------------------------*/
   .imgPc {
-    background-image: url("../src/assets/Home/pchome.png");
+    background-image: url("../../assets/Home/pchome.png");
     background-size: contain;
     background-repeat: no-repeat;
     padding: 25rem;
@@ -170,22 +179,25 @@
   }
   
   #caixas #icon-1 {
-    background-image: url('../src/assets/Home/coment.png');
+  
+    background-image: url("../../assets/Home/coment.png");
   }
   
   #caixas #icon-2 {
-    background-image: url("../src/assets/Home/pen.png");
+    background-image: url("../../assets/Home/pen.png");
+ 
   }
   
   #caixas #icon-3 {
-    background-image: url("../src/assets/Home/light.png");
+    background-image: url("../../assets/Home/light.png");
+
   }
   
   /*--------------------------------------------------------------*/
   #img-1 {
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url("../src/assets/Home/gestao.png");
+    background-image: url("../../assets/Home/gestao.png");
     padding: 15rem;
     max-width: 50%;
     margin-right: 10rem;
@@ -243,7 +255,7 @@
 #img-2 {
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url("../src/assets/Home/mulher.png");
+    background-image: url("../../assets/Home/mulher.png");
     padding: 15rem;
     margin-top: 5rem;
   }
@@ -259,8 +271,8 @@
 
  #img-3 {
     background-image: 
-      url("../src/assets/Home/servicos.png"), 
-      url("../src/assets/Home/servicos.png"); 
+      url("../../assets/Home/servicos.png"),
+      url("../../assets/Home/servicos.png"); 
     background-size: auto 50%; 
     background-repeat: no-repeat; 
     background-position:  right 45%, top right 15%;
@@ -299,7 +311,11 @@ font-size: xx-large;
   font-size: x-large;
   margin-top: 2rem;
 }
-
+#bt:hover{
+  background-color: white;
+  border: #379E53 2px solid;
+  color: #379E53;
+}
  /*Rodapé-home*/
 
 
@@ -341,13 +357,13 @@ font-size: xx-large;
    font-weight: 700;
 }
 #col3 #icon-4{
-  background-image: url("../src/assets/Home/twitter.png");
+  background-image: url("../../assets/Home/twitter.png");
 }
 #col3 #icon-5{
-  background-image: url("../src/assets/Home/instagram.png");
+  background-image: url("../../assets/Home/instagram.png");
 }
 #col3 #icon-6{
-  background-image: url("../src/assets/Home/facebook.png");
+  background-image: url("../../assets/Home/facebook.png");
 }
   @media (max-width: 768px) {
     .menu {
