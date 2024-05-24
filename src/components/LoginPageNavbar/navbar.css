@@ -22,7 +22,11 @@ body {
   padding: 1rem;
 }
 
-.menu #logo {
+#ls-logo {
+  cursor: pointer;
+}
+
+.menu #ls-logo {
   font-size: 250%;
   font-weight:600;
   margin-left: 5rem;
