@@ -21,8 +21,12 @@
     align-items: center;
     padding: 1rem;
   }
+
+  #su-logo {
+    cursor: pointer;
+  }
   
-  .menu #logo {
+  .menu #su-logo {
     font-size: 250%;
     font-weight:600;
     margin-left: 5rem;
