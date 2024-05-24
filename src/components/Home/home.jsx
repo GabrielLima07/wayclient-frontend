@@ -1,6 +1,6 @@
 import React from "react";
 import "../Home/home.css"
-
+import { Link } from "react-router-dom";
 const Home = () =>{ return (
     <div>
        
@@ -9,12 +9,12 @@ const Home = () =>{ return (
                 <h2 id={"logo"}>WayClient</h2>
                
                <div className={"textos"}>
-                <h3 >Central de Ajuda</h3>
-                <h3 >FAQ</h3>
-                <h3>Contato</h3>
-                <h3 >Login</h3>
+                         <h3><Link className={"link"}>Central de Ajuda</Link></h3>
+                        <h3><Link className={"link"} >FAQ</Link></h3>
+                        <h3><Link className={"link"}>Contato</Link></h3>
+                        <h3><Link to="/login" className={"link"}>Login</Link></h3>
                 
-                <h3 id={"cadastre"}>Cadastre-se</h3>
+                <h3 id={"cadastre"}><Link to="/signup" className={"link"}>Cadastre-se</Link></h3>
                 </div>
              </div>
           </nav>
@@ -22,6 +22,7 @@ const Home = () =>{ return (
        <section className={"pc-content"}>
 
          <div className={"imgPc"}>
+        
          </div>
          <div className={"frases"}>
             <h1>WayClient <p><span>-</span> espera e <span>+</span> vendas, totalmente <br></br> automático.</p></h1>
