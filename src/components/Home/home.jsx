@@ -13,6 +13,8 @@ const Home = () =>{ return (
                         <h3><Link className={"link"} >FAQ</Link></h3>
                         <h3><Link className={"link"}>Contato</Link></h3>
                         <h3><Link to="/login" className={"link"}>Login</Link></h3>
+                        <h3><Link to="/funcionario"className={"link"}>Página do funcionário</Link></h3>
+                        
                 
                 <h3 id={"cadastre"}><Link to="/signup" className={"link"}>Cadastre-se</Link></h3>
                 </div>
