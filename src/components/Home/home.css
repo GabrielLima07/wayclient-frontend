@@ -346,17 +346,12 @@ h1 {
 
 #col1,
 #col2,
-#col3,
-#col4 {
+#col3 {
   flex: 1;
   list-style-type: none;
   padding: 0;
   margin: 2rem 0;
   
-}
-#col4{
-  text-align: left
-  ;
 }
 
 
@@ -404,16 +399,6 @@ h1 {
   background-image: url("../../assets/Home/facebook.png");
 }
 
-#col4 {
-  flex: 1;
-  list-style-type: none;
-  padding: 0;
-  margin: 2rem 0;
-}
-
-#col4 ul {
-  margin: 0;
-}
 
 .rodape li {
   font-size: large;

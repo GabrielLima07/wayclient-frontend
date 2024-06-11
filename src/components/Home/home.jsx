@@ -105,10 +105,7 @@ const Home = () => {
                             <ul id="icon-6"></ul>
                         </div>
                     </div>
-                    <div id="col4">
-                        <h2>Você é um funcionário?</h2>
-                        <ul>Clique <Link to="/funcionario">aqui</Link> para visitar a sua página</ul>
-                    </div>
+                
                 </div>
             </footer>
         </div>
